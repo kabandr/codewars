@@ -4,7 +4,7 @@ import shell from "shelljs";
 if (shell.exec('git commit -am "Auto-commit"').code !== 0) {
   shell.exec("git add .");
   shell.exec('git add commit -m "woooooooo"');
-  shell.exec('git add commit -m "woooooooo"');
+  shell.exec('git  -m "woooooooo"');
   shell.echo("Successfully pushed to github repo!");
   shell.exit(1);
 }
