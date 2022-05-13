@@ -1,0 +1,25 @@
+{
+  "name": "codewars",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kabandr/codewars.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kabandr/codewars/issues"
+  },
+  "homepage": "https://github.com/kabandr/codewars#readme",
+  "dependencies": {
+    "shelljs": "^0.8.5"
+  }
+}
