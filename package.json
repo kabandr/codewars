@@ -21,5 +21,8 @@
   "homepage": "https://github.com/kabandr/codewars#readme",
   "dependencies": {
     "shelljs": "^0.8.5"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
   }
 }
