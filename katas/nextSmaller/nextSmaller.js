@@ -1,5 +1,6 @@
 export const nextSmaller = (n) => {
-    return n
+    const str = n.toString();
+    return str
 }
 
 console.log(nextSmaller(21))
