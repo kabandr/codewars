@@ -1,0 +1,19 @@
+const nextSmaller = require("./nextSmaller")
+
+describe("Fixed tests", function() {
+	it("Smaller numbers", function() {
+        expect(nextSmaller(21)).toBe(12);
+ 		Test.assertEquals(nextSmaller(907), 790)
+		Test.assertEquals(nextSmaller(531), 513)
+		Test.assertEquals(nextSmaller(135), -1)
+		Test.assertEquals(nextSmaller(2071), 2017)
+		Test.assertEquals(nextSmaller(1027), -1)
+		Test.assertEquals(nextSmaller(414), 144)
+	})
+  
+	it("Bigger numbers", function() {
+		Test.assertEquals(nextSmaller(123456798), 123456789)
+		Test.assertEquals(nextSmaller(123456789), -1)
+		Test.assertEquals(nextSmaller(1234567908), 1234567890)
+	})
+})
