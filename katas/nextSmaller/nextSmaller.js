@@ -1,4 +1,4 @@
-const nextSmaller = (n) => {
+export const nextSmaller = (n) => {
     return n
 }
 
